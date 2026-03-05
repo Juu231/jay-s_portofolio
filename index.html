@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to DeJay's Portfolio!</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/style.css">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="asset/image/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="asset/image/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="asset/image/favicon/favicon-16x16.png">
+    <link rel="manifest" href="asset/image/favicon/site.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+    <div id="intro-overlay">
+        <div class="intro-content">
+            <img src="asset/image/logo-website.png" alt="Logo-DeJay" id="intro-logo">
+            <button id="start-btn">PRESS TO START</button>
+            <p class="audio-recommendation">BEST EXPERIENCED WITH HEADPHONES</p>
+        </div>
+    </div>
+
+    <audio id="bg-music" loop>
+        <source src="asset/audio/malcomtodd-sweetboy.mp3" type="audio/mpeg">
+    </audio>
+
+    <section id="portoheader">
+        <header class="main-navbar">
+            <div class="nav-logo">
+                <img src="asset/image/logo-website.png" alt="Logo-DeJay">
+            </div>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#about-me-overview">Home</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#volunteer">Volunteer</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-spacer">
+                <button class="hamburger-btn" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </header>
+    </section>
+
+    <div class="ticker-container">
+        <div class="ticker-wrapper">
+            <div class="ticker-item">ANTHONY DE JAYSON WIRANATA</div>
+            <div class="ticker-item">ANTHONY DE JAYSON WIRANATA</div>
+            <div class="ticker-item">ANTHONY DE JAYSON WIRANATA</div>
+            <div class="ticker-item">ANTHONY DE JAYSON WIRANATA</div>
+            <div class="ticker-item">ANTHONY DE JAYSON WIRANATA</div>
+            <div class="ticker-item">ANTHONY DE JAYSON WIRANATA</div>
+            <div class="ticker-item">ANTHONY DE JAYSON WIRANATA</div>
+            <div class="ticker-item">ANTHONY DE JAYSON WIRANATA</div>
+            <div class="ticker-item">ANTHONY DE JAYSON WIRANATA</div>
+            <div class="ticker-item">ANTHONY DE JAYSON WIRANATA</div>
+            <div class="ticker-item">ANTHONY DE JAYSON WIRANATA</div>
+            <div class="ticker-item">ANTHONY DE JAYSON WIRANATA</div>
+        </div>
+    </div>
+
+    <div class="side-drawer" id="side-drawer">
+        <button class="close-btn" id="close-menu">&times;</button>
+        <ul class="drawer-links">
+            <li style="--i:1"><a href="#about-me-overview">Home</a></li>
+            <li style="--i:2"><a href="#education">Education</a></li>
+            <li style="--i:3"><a href="#volunteer">Volunteer</a></li>
+            <li style="--i:4"><a href="#project">Project</a></li>
+            <li style="--i:5"><a href="#contact">Contact</a></li>
+        </ul>
+    </div>  
+
+    <section id="about-me-overview">
+        <div class="about-me-container">
+            <div class="about-me-content">
+                <div class="about-me-text">
+                    <h2>Anthony de <br> Jayson Wiranata</h2>
+                    <p>
+                        A student from Universitas Pelita Harapan, majoring in Information Systems. Having a diehard passion for his major, 
+                        he strives for excellence to be committed and bring impact to the people around him.
+                    </p>
+                </div>
+
+                <div class="music-controller">
+                    <div class="song-info">
+                        <span class="music-icon">🎵</span>
+                        <div class="song-details">
+                            <span class="song-title">Sweetboy</span>
+                            <span class="artist-name">Malcolm Todd</span>
+                        </div>
+                    </div>
+                    <button id="music-toggle-btn" class="play-pause-btn">
+                        <span id="player-icon">II</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="about-me-image-wrapper" data-aos="zoom-in" data-aos-duration="1500">
+                <div class="jayson-pic-container">
+                    <img src="asset/image/about-me-picture.png" alt="anthony-de-jayson" class="floating-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+    <div class="education-header" data-aos="fade-down">
+        <h2>Education Journey</h2>
+        <div class="header-line"></div>
+    </div>
+
+    <div class="timeline-container">
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="0">
+            <div class="edu-photo">
+                <img src="asset/image/saint-john-school-photo.png" alt="saint-john-school-photo">
+                <div class="edu-year">2010 - 2019</div>
+            </div>
+            <div class="edu-details">
+                <h3>Saint John School (MERUYA)</h3>
+                <p>beloved childhood journey.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="edu-photo">
+                <img src="asset/image/santa-laurensia-photo.png" alt="santa-laurensia-school-photo">
+                <div class="edu-year">2019 - 2022</div>
+            </div>
+            <div class="edu-details-smp">
+                <h3> SMP Santa Laurensia (ALAM SUTERA)</h3>
+                <p>the sincere pandemic era.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+            <div class="edu-photo">
+                <img src="asset/image/uph-college-photo.png" alt="uph-college-lobby-photo">
+                <div class="edu-year">2022 - 2025</div>
+            </div>
+            <div class="edu-details">
+                <h3>SMA UPH COLLEGE</h3>
+                <p>pre-adult turning point.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="600">
+            <div class="edu-photo">
+                <img src="asset/image/uph-landscape-photo.png" alt="Universitas Pelita Harapan">
+                <div class="edu-year">2025 - Present</div>
+            </div>
+            <div class="edu-details">
+                <h3>Universitas Pelita Harapan</h3>
+                <p>Information System Student.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="volunteer">
+    <div class="volunteer-header" data-aos="fade-down">
+        <h2>Volunteer & Active Committees</h2>
+        <div class="header-line"></div>
+    </div>
+
+<div class="volunteer-grid">
+    <div class="volunteer-card" data-aos="zoom-in" onclick="openVolunteer('vol1')">
+        <img src="asset/image/academic-excellence-2024.jpeg" alt="academic-excellence-team">
+        <div class="card-overlay"><span>View Details</span></div>
+    </div>
+    <div class="volunteer-card" data-aos="zoom-in" data-aos-delay="100" onclick="openVolunteer('vol2')">
+        <img src="asset/image/candidate-president-picture.jpeg" alt="candidate-president-campaign">
+        <div class="card-overlay"><span>View Details</span></div>
+    </div>
+    <div class="volunteer-card" data-aos="zoom-in" data-aos-delay="200" onclick="openVolunteer('vol3')">
+        <img src="asset/image/orchestra-picture.jpeg" alt="orchestra-picture">
+        <div class="card-overlay"><span>View Details</span></div>
+    </div>
+
+    <div class="volunteer-card" data-aos="zoom-in" onclick="openVolunteer('vol4')">
+        <img src="asset/image/clutch-workshop.jpeg" alt="clutch-workshop">
+        <div class="card-overlay"><span>View Details</span></div>
+    </div>
+    <div class="volunteer-card" data-aos="zoom-in" data-aos-delay="100" onclick="openVolunteer('vol5')">
+        <img src="asset/image/jayson-solo-violin.jpeg" alt="jayson-solo-violin">
+        <div class="card-overlay"><span>View Details</span></div>
+    </div>
+    <div class="volunteer-card" data-aos="zoom-in" data-aos-delay="200" onclick="openVolunteer('vol6')">
+        <img src="asset/image/orchestra-2023.jpeg" alt="orchesra-2023">
+        <div class="card-overlay"><span>View Details</span></div>
+    </div>
+
+    <div class="volunteer-card" data-aos="zoom-in" onclick="openVolunteer('vol7')">
+        <img src="asset/image/academic-excellence-member.jpeg" alt="academic-excellence-member">
+        <div class="card-overlay"><span>View Details</span></div>
+    </div>
+    <div class="volunteer-card" data-aos="zoom-in" data-aos-delay="100" onclick="openVolunteer('vol8')">
+        <img src="asset/image/leadership-camp-2024.jpeg" alt="leadership-camp-committee">
+        <div class="card-overlay"><span>View Details</span></div>
+    </div>
+    <div class="volunteer-card" data-aos="zoom-in" data-aos-delay="200" onclick="openVolunteer('vol9')">
+        <img src="asset/image/new-student-orientation-24.jpeg" alt="new-student-orientation-performance">
+        <div class="card-overlay"><span>View Details</span></div>
+    </div>
+</div>
+
+
+<div id="volunteer-details" class="volunteer-side-panel">
+    <button class="close-panel" onclick="closeVolunteer()">&times;</button>
+    <div class="panel-content">
+        <img id="panel-img" src="" alt="Volunteer Detail Image"> 
+        <h3 id="panel-title"></h3>
+        <p id="panel-desc"></p>
+    </div>
+</div>
+</section>
+    
+    <div class="menu-overlay" id="menu-overlay"></div>
+    <button id="back-to-top" class="back-to-top">
+    <span>↑</span>
+    </button>
+
+<section id="project" class="project-section-minimal">
+    <div class="sidebar-container">
+        <div class="project-meta">
+            <span>MOBILE APP / 2026</span>
+            <div class="vertical-line"></div>
+        </div>
+
+        <div class="project-content" data-aos="fade-right">
+            <h1 class="bebas-title">FIGMA UI/UX<br>PROJECT</h1>
+            <div class="accent-line" data-aos="line-grow"></div>
+            <p class="project-subtitle">DROP & SHOP: AR-POWERED E-COMMERCE</p>
+        </div>
+    </div>
+
+<section id="project" class="project-section-minimal">
+    <div class="gallery-prototype">
+        <div class="gallery-item banner" data-aos="fade-up">
+            <img src="asset/image/drop-shop-mock-up.png" alt="drop-shop-mock-up">
+        </div>
+        
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+            <img src="asset/image/home-dropshop.avif" alt="home-mock-up">
+        </div>
+        
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+            <img src="asset/image/profile-dropshop.avif" alt="profile-mock-up">
+        </div>
+        
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+            <img src="asset/image/dropshop-logo.avif" alt="logo-mock-up">
+        </div>
+    </div>
+
+    <div class="project-links-container" data-aos="fade-up">
+    <h3 class="links-title">PROJECT DOCUMENTATION</h3>
+    <div class="links-grid">
+        <a href="https://medium.com/@anthony.de.jayson/drop-shop-a-fun-engaging-jastip-application-93b0046b6f8e" target="_blank" class="link-card">
+            <span class="link-label">Case Study</span>
+            <span class="link-cta">Read on Medium →</span>
+        </a>
+        <a href="https://www.figma.com/design/19Tunga0f1dR8fx4yVr1in/Jastip-Design-Figma-UI-UX?node-id=630-123&t=nAIwUXnqrS4pzozq-1" target="_blank" class="link-card">
+            <span class="link-label">Wireframes</span>
+            <span class="link-cta">View Figma Design →</span>
+        </a>
+        <a href="https://www.figma.com/design/19Tunga0f1dR8fx4yVr1in/Jastip-Design-Figma-UI-UX?node-id=1176-94&t=nAIwUXnqrS4pzozq-1" target="_blank" class="link-card">
+            <span class="link-label">Interactive Prototype</span>
+            <span class="link-cta">Try on Figma →</span>
+        </a>
+        </div>
+    </div>
+</section>
+
+<footer id="contact" class="footer-section">
+    <div class="footer-container">
+        <h2 class="contact-header" data-aos="fade-up">CONNECT WITH ME</h2>
+        
+        <div class="footer-logo-box" data-aos="fade-up" data-aos-delay="100">
+            <img src="asset/image/logo-website.png" alt="Logo-DeJay" class="footer-logo">
+        </div>
+
+        <div class="socials-wrapper" data-aos="fade-up" data-aos-delay="200">
+            <a href="https://www.linkedin.com/in/anthony-de-jayson-wiranata-7853372ab?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BFEeKwMtOT1ahhdG6ZE6%2FcQ%3D%3D" class="social-item">
+                <img src="asset/image/linkedin-icon.png" alt="linkedin-icon">
+                <span>LINKEDIN</span>
+            </a>
+
+            <a href="https://line.me/ti/p/itsjaysonyes" class="social-item">
+                <img src="asset/image/line-icon.png" alt="line-icon">
+                <span>LINE</span>
+            </a>
+
+            <a href="mailto:business.dejayson@gmail.com" class="social-item">
+                <img src="asset/image/gmail-icon.png" alt="gmail-icon">
+                <span>GMAIL</span>
+            </a>
+
+            <a href="https://www.instagram.com/de.j_yson/" class="social-item">
+                <img src="asset/image/instagram-icon.png" alt="instagram-icon">
+                <span>INSTAGRAM</span>
+            </a>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="asset/js/app.js"></script>
+    </body>
+</html>
